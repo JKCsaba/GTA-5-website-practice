@@ -118,9 +118,9 @@ header nav#home a:visited {
 	}
 	
 nav#sidemenu a {text-decoration:none; padding:3px;}	
-nav#sidemenu a:link, nav#sidemenu a:visited {
-    color: white; /* Keep this for general links in sidemenu */
-}
+
+
+
 
 /* Add these specific rules for the ordered list inside sidemenu */
 nav#sidemenu ol li a {
