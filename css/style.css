@@ -54,6 +54,23 @@ h3 {
 
 }	
 
+/* Fix for the table of contents links */
+nav#sidemenu ol li a:link {
+    color: black; /* Unopened links */
+}
+
+nav#sidemenu ol li a:visited {
+    color: darkblue; /* Links already visited */
+}
+
+nav#sidemenu ol li a:hover {
+    color: darkgreen; /* Hover effect */
+}
+
+nav#sidemenu ol li a:active {
+    color: red; /* Active link */
+}
+
 /*attributes of the html and the site*/
 html {
 	background-color:rgb(13, 82, 122);
