@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Franklin Clinton - Everything you need to know about GTA V</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+	    <link rel="icon" href="media/headericon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    </head>
+<body>
+
+<header>
+    <nav id="jumptocontent">
+        <h2 class="hidden">Jump within the site</h2>
+        <a href="#content">jumptocontent</a>
+    </nav>
+    <h1>Everything you need to know about GTA V</h1>
+    <nav id="home">
+		<h2 class="hidden">Home</h2>
+		<a href="index.html" title="Home">Home</a> 
+        <a href="michael.html" title="Everything you need to know about Michael De Santa">Michael De Santa</a>
+        <b>Franklin Clinton</b>
+        <a href="trevor.html" title="Everything you need to know about Trevor Philips">Trevor Philips</a>
+    </nav>    
+</header>
+<br>   
+<button id="highContrastToggle">Enable High Contrast</button>
+
+<main id="content">
+<div id="introduction" class="column">
+    <article>
+        <h2>Franklin Clinton</h2>
+        <p>
+            <b>Franklin Clinton</b> is a young, ambitious hustler from the streets of Los Santos. <br>
+            Working as a repo man for a shady car dealership, he dreams of escaping the cycle of poverty and petty crime. <br>
+            Franklin's <b>excellent driving skills</b> and <b>determination</b> make him an invaluable member of the crew. <br>
+            He quickly forms a mentor-mentee relationship with Michael, learning the art of high-stakes heists while navigating the complexities of loyalty and ambition.
+        </p>
+    </article>
+    <img src="media/franklin.png" alt="A black man wearing a blue shirt with a pistol in his hand" id="logo">
+</div>
+<hr>
+
+<article>
+    <h2 id="playerstats">The hustler finding his way out of poverty</h2>
+    <aside>
+        <h3>Personal details</h3>
+        <table>
+        <caption>
+           <details>
+            <summary><strong>More info</strong></summary>
+            <p>The most important personal details regarding Franklin Clinton</p>
+           </details>
+        </caption>
+        <tr>
+            <th scope="row">Voiced by</th><td>Shawn Fonteno</td>
+        </tr>
+        <tr>
+            <th scope="row">Nationality</th><td>American</td>
+        </tr>
+        <tr>
+            <th scope="row">Birth year</th><td><time datetime="1988">1988</time></td>
+        </tr>
+        <tr>
+            <th scope="row">Height</th><td>185 cm</td>
+        </tr>
+        <tr>
+            <th scope="row">Status</th><td>Alive</td>
+        </tr>
+        </table>
+    </aside>    
+<p>
+    <b>Franklin Clinton</b>, born and raised in the rough neighborhoods of South Los Santos, is a <b>determined</b> young hustler striving to break free from a life of petty crime. As a former gang member turned repo man, Franklin dreams of a future beyond the streets, where wealth and respect are earned through ambition rather than violence.
+</p>
+<p>
+    Despite his skills as a <b>driver</b> and his <b>street smarts</b>, Franklin struggles with the influence of his old environment. His friendships and family ties are complicated, often pulling him back into the chaos he seeks to escape.
+</p>
+<p>    
+    However, his encounter with Michael De Santa offers a chance at something greater. Michael becomes a mentor to Franklin, guiding him through high-stakes heists that demand precision, cunning, and nerves of steel.
+</p>
+<p>
+    Throughout the story, Franklin acts as the <b>grounding force</b> of the trio, balancing <a href="michael.html" title="Everything you need to know about Michael De Santa">Michael</a>'s calculated schemes and <a href="trevor.html" title="Everything you need to know about Trevor Philips">Trevor</a>'s unhinged chaos. His journey is one of ambition, loyalty, and self-discovery, as he navigates the dangerous world of Los Santos in pursuit of his dream to rise above the life he once knew.
+</p>
+    <figure>
+        <a href="media/franklinwide.jpg" target="_blank">
+        <img src="media/franklinwide.jpg" alt="A black man wearing a yellow shirt with a submachine gun in his hand." class="preview-image">
+        </a>
+        <figcaption><b>Franklin Clinton as visible on the loading screen of the game.</b></figcaption>
+    </figure>
+</article>
+<hr>
+
+<article>
+<div id="quote" class="column">
+        <h3><q>You get what you work for, not what you wish for.</q></h3>
+            <p><cite>Franklin Clinton</cite></p>
+</div>
+<p>
+    Showcasing Franklin’s no-nonsense mindset, this line encapsulates his belief in effort over entitlement, a defining trait of his rise from the streets.
+</p>    
+</article>
+<hr>
+
+
+
+
+
+
+
+
+<article>
+    <h2>Sources</h2>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Grand_Theft_Auto_V" target="_blank">Wikipedia</a></li> 
+        <li><a href="https://gta.fandom.com/wiki/Main_Page" target="_blank">GTA wiki</a></li>
+        <li><a href="https://www.rockstargames.com/gta-v" target="_blank">GTA 5's website</a></li>
+    </ul>
+</article>
+<hr>
+
+</main>
+<footer>
+    <address>
+        <p>This site was made by: <b>Csaba Juhos-Kiss</b> <br>(<a href="mailto:csabajuhoskiss@gmail.com">csabajuhoskiss@gmail.com</a>)<br>
+        1195 Budapest, Üllői út. 21</p>
+    </address>
+    <p>
+        <img src="media/vcss.png" alt="valid CSS!">
+    </p>
+    <p>
+        <button id="backToTop">Back to the top</button>
+    </p>
+</footer>
+<script>
+    const backToTopButton = document.getElementById('backToTop');
+    backToTopButton.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    });
+</script>
+
+<script>
+    const toggleButton = document.getElementById('highContrastToggle');
+    toggleButton.addEventListener('click', function () {
+        document.body.classList.toggle('high-contrast');
+        toggleButton.textContent = 
+            document.body.classList.contains('high-contrast') 
+            ? 'Disable High Contrast' 
+            : 'Enable High Contrast';
+    });
+</script>
+
+    </body>
+</html>
