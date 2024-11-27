@@ -108,7 +108,7 @@ nav#sidemenu a:hover, header nav#sidemenu a:focus  {
 	}
 
 nav#home a {text-decoration:none; padding:3px;}	
-nav#home a:link,header nav#sidemenu a:visited {color:white}
+nav#home a:link,header nav#sidemenu a:visited {color:black}
 nav#home a:hover, header nav#sidemenu a:focus  {
 	background-color:#ddd;
 	transition: color 0.3s ease, background-color 0.3s ease;
