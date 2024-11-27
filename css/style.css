@@ -101,11 +101,19 @@ header nav#home a:visited {
 	}
 	
 nav#sidemenu a {text-decoration:none; padding:3px;}	
-nav#sidemenu a:link,header nav#sidemenu a:visited {color:white}
+nav#sidemenu a:link,header nav#sidemenu a:visited {color:block}
 nav#sidemenu a:hover, header nav#sidemenu a:focus  {
 	background-color:#ddd;
 	transition: color 0.3s ease, background-color 0.3s ease;
 	}
+nav#sidemenu ol li a {
+    color: black; /* Change this to the color you want */
+}
+
+nav#sidemenu ol li a:hover {
+    color: darkgreen; /* Optional hover color */
+}
+
 
 nav#home a {text-decoration:none; padding:3px;}	
 nav#home a:link,header nav#sidemenu a:visited {color:black}
