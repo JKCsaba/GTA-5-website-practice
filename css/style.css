@@ -101,7 +101,19 @@ header nav#home a:visited {
 	}
 	
 nav#sidemenu a {text-decoration:none; padding:3px;}	
-nav#sidemenu a:link,header nav#sidemenu a:visited {color:block}
+nav#sidemenu a:link, nav#sidemenu a:visited {
+    color: white; /* Keep this for general links in sidemenu */
+}
+
+/* Add these specific rules for the ordered list inside sidemenu */
+nav#sidemenu ol li a {
+    color: black;
+}
+
+nav#sidemenu ol li a:hover {
+    color: darkgreen;
+}
+
 nav#sidemenu a:hover, header nav#sidemenu a:focus  {
 	background-color:#ddd;
 	transition: color 0.3s ease, background-color 0.3s ease;
